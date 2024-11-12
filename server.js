@@ -10,12 +10,12 @@ app.use(express.static('public'));  // to serve static files like HTML, CSS, JS
 
 // OpenAI API setup
 // const configuration = new Configuration({
-//     apiKey: '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',  // Replace with your actual OpenAI API key
+//     
 // });
 // const openai = new OpenAIApi(configuration);
 
 const openai = new OpenAI({
-    apiKey: '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',  // Replace with your actual OpenAI API key
+    
 });
 
 // Route to handle ingredient checking
